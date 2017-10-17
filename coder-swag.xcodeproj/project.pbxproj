@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CDCAF2121F95C559000E8D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2111F95C559000E8D70 /* AppDelegate.swift */; };
-		CDCAF2141F95C55A000E8D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2131F95C55A000E8D70 /* ViewController.swift */; };
+		CDCAF2141F95C55A000E8D70 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2131F95C55A000E8D70 /* CategoriesVC.swift */; };
 		CDCAF2171F95C55A000E8D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCAF2151F95C55A000E8D70 /* Main.storyboard */; };
 		CDCAF2191F95C55A000E8D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCAF2181F95C55A000E8D70 /* Assets.xcassets */; };
 		CDCAF21C1F95C55A000E8D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCAF21A1F95C55A000E8D70 /* LaunchScreen.storyboard */; };
+		CDCAF2271F95CCE1000E8D70 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDCAF20E1F95C559000E8D70 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCAF2111F95C559000E8D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDCAF2131F95C55A000E8D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCAF2131F95C55A000E8D70 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		CDCAF2161F95C55A000E8D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDCAF2181F95C55A000E8D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDCAF21B1F95C55A000E8D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDCAF21D1F95C55A000E8D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		CDCAF2101F95C559000E8D70 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CDCAF2251F95CCB1000E8D70 /* View */,
+				CDCAF2241F95CC35000E8D70 /* Model */,
+				CDCAF2231F95CC2B000E8D70 /* Controller */,
 				CDCAF2111F95C559000E8D70 /* AppDelegate.swift */,
-				CDCAF2131F95C55A000E8D70 /* ViewController.swift */,
 				CDCAF2151F95C55A000E8D70 /* Main.storyboard */,
 				CDCAF2181F95C55A000E8D70 /* Assets.xcassets */,
 				CDCAF21A1F95C55A000E8D70 /* LaunchScreen.storyboard */,
 				CDCAF21D1F95C55A000E8D70 /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		CDCAF2231F95CC2B000E8D70 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDCAF2131F95C55A000E8D70 /* CategoriesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDCAF2241F95CC35000E8D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDCAF2251F95CCB1000E8D70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDCAF2141F95C55A000E8D70 /* ViewController.swift in Sources */,
+				CDCAF2141F95C55A000E8D70 /* CategoriesVC.swift in Sources */,
 				CDCAF2121F95C559000E8D70 /* AppDelegate.swift in Sources */,
+				CDCAF2271F95CCE1000E8D70 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
