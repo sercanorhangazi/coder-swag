@@ -15,6 +15,7 @@
 		CDCAF2271F95CCE1000E8D70 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */; };
 		CDCAF2291F95D17D000E8D70 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF2281F95D17D000E8D70 /* Category.swift */; };
 		CDCAF22C1F95D3C5000E8D70 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF22B1F95D3C5000E8D70 /* DataService.swift */; };
+		CDCAF22E1F95E638000E8D70 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF22D1F95E638000E8D70 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		CDCAF2281F95D17D000E8D70 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CDCAF22B1F95D3C5000E8D70 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CDCAF22D1F95E638000E8D70 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				CDCAF2261F95CCE1000E8D70 /* CategoryCell.swift */,
+				CDCAF22D1F95E638000E8D70 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCAF2141F95C55A000E8D70 /* CategoriesVC.swift in Sources */,
+				CDCAF22E1F95E638000E8D70 /* ProductCell.swift in Sources */,
 				CDCAF2121F95C559000E8D70 /* AppDelegate.swift in Sources */,
 				CDCAF2271F95CCE1000E8D70 /* CategoryCell.swift in Sources */,
 				CDCAF2291F95D17D000E8D70 /* Category.swift in Sources */,
