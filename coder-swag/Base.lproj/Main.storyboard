@@ -90,21 +90,21 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CODERSWAG" id="aB7-A4-8XB">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="bmj-b2-vYY"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="zU8-nB-fVo"/>
                     </navigationItem>
                     <connections>
                         <outlet property="categoryTable" destination="Zy3-PN-j7L" id="y45-Y2-H7u"/>
-                        <segue destination="a2r-tg-2Zo" kind="show" identifier="toProductVC" id="AEe-ci-ef4"/>
+                        <segue destination="a2r-tg-2Zo" kind="show" identifier="ProductsVC" id="AEe-ci-ef4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="364" y="31.934032983508249"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="7sG-6w-PTc">
             <objects>
-                <viewController id="a2r-tg-2Zo" sceneMemberID="viewController">
+                <viewController id="a2r-tg-2Zo" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JSX-oV-PWA"/>
                         <viewControllerLayoutGuide type="bottom" id="kQj-39-x5a"/>
@@ -129,7 +129,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCell" id="Lsy-mY-RWq" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCell" id="Lsy-mY-RWq" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="251"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -194,6 +194,9 @@
                             <constraint firstItem="WbX-Xk-hv2" firstAttribute="leading" secondItem="IZk-ol-byQ" secondAttribute="leadingMargin" id="teQ-h1-Rru"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="productsCollectionView" destination="QXH-XO-tP5" id="8o4-bv-547"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSa-Qo-jsu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
